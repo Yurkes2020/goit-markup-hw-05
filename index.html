@@ -47,7 +47,13 @@
         <!-- Заказ -->
         <section class="section hero">
                 <h1 class="title">Эффективные решения<br> для вашего бизнеса</h1>   
-                <button class="btn" type="button">Заказать услугу</button>
+                <button data-modal-open class="btn" type="button">Заказать услугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <p></p>
+                        <button data-modal-close></button>
+                    </div>
+                </div>
         </section>
         <!-- Преимущества -->
         <section class="section diferent">
@@ -100,12 +106,21 @@
                 <ul class="activ-list">
                     <li class="item">
                         <img src="./image/job1.jpg" alt="Верстка" width="370" height="274">
+                        <div class="actions">
+                            <h4 class="item-title">Десктопные приложения</h4>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./image/job2.jpg" alt="Адаптив" width="370" height="274">
+                        <div class="actions">
+                            <h4 class="item-title">Мобильные приложения</h4>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./image/job3.jpg" alt="Дизайн" width="370" height="274">
+                        <div class="actions">
+                            <h4 class="item-title">Дизайнерские решения</h4>
+                        </div>
                     </li>
                 </ul>
             </di>
@@ -370,5 +385,6 @@
                 </div>
         </div>
    </footer>
+<script src="./js/modal.js"></script>
 </body>
 </html>
