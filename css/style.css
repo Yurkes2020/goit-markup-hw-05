@@ -686,10 +686,10 @@ ul {
     right: 8px;
 
     display: flex;
+    justify-content: center;
+        align-items: center;
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
 }
